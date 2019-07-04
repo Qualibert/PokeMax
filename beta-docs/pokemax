@@ -1,0 +1,73 @@
+Setup guide:
+
+1) PokeNav bot (<https://pokenavbot.com/>) must be in your server for most features to work.
+2) Invite PokeMax bot in your Discord server.
+3) Go into your server roles settings and make sure that PokeMax role is above raid-viewer and raid-moderator.
+4) Run the ``$pokemax`` command inside the channel that you will use as the pokemax-moderation channel (recommended that you actually use the #pokenav channel).
+5) You may need the tasker/plus app if you want the plus features (check patreon, check google play link).
+
+Pokemax will ask:
+
+1) Hi! Thank for using PokeMax, this wizard will guide you throught the main setup. You can use ``[pre]info`` to get help on the bot.
+First, (PokeMax uses ``$gtc`` see if it's responding or the correct prefix). Else:
+It seems that either PokeNav bot is not using the default prefix (``$``) or don't have permissions to write in this channel.
+Please make sure the permissions are correct then type rerun ``pokemax`` or ``$setup prefix [?]``
+(use ``$stc`` to be: ``PokeNav test suceeded!``) 
+
+2) is this the #pokenav moderation channel? Else, send the channel mention (auto approuve or change text if it's named "pokenav"?. 
+Maybe search for it by name if not found and prompt for it
+
+3) Find the #active-raids channel
+4) Find the raid-lobby channel (multiples :S?)
+5) Find the general-chat channel (?)
+6) Set the moderation role, admin-role.
+
+
+
+**You are currently using the PokeMax BETA, bugs are likely to happens**
+
+PokeNav bot (<https://pokenavbot.com/>) must be in your server for most features to work.
+
+(create a role for himself)
+
+Start by:
+``$setup raid-module``
+``$setup nest-module``
+``$setup tasker-module``
+``$setup event-module``
+``$setup welcome-module``
+``$setup genchat-module``
+``$setup poi-module``
+``$setup embed-module``
+``$setup wild-module``
+``$setup badge-module``
+``$setup notifications-module``
+``$setup takedown-module``
+``$setup pvp-module``
+``$setup trade-module``
+``$setup weather-module``
+
+``$setup raids-channel #channel``
+``$setup pokenav-channel #channel`` - Must have permissions to write to enable automation of PokeNav (listen to set-moderation channel too).
+``$setup mod-channel #channel`` - All modules notifications and approval will go there
+``$setup news-channel #channel``
+``$setup welcome-channel #channel``
+``$setup genchat-channel #channel`` - Must listen to all ''stc''
+
+``$setup mod-role @role``
+``$setup nestmod-role @role``
+
+``$setup prefixe [?]`` - Should be the same as PokeNav (listen to set-prefixe)
+
+
+---- Run ``$info`` without commands to get:
+Type ``$info [command]`` (*ex: $info switch*) to learn more about a specific command:
+
+$params - Show current server settings
+
+$setup - Setup the different channels needed to start using PokeMax
+$switch - Toggle some parameters on and off
+$plus - Display the current patreon premium status of the server
+$legal - Credits and licenses
+
+$tiers - Show the raid bosses infographic from <http://pokemongo3r.com/raids> (DEFAULT: OFF)
