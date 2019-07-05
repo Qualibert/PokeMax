@@ -1,8 +1,16 @@
+Modules status:
+
+Concept: This has been suggested and is being considered but do not have a clear plan yet. 
+Planned: Proof-of-concept is done and this feature is on the to-do list.
+Work in progress: Ongoing developpement on this module have started.
+Beta: Available for people willing to test the (possibly unstable) feature and give feedback.
+Released: The module is out of trial period, this don't means that it's bug-free.
+
 Setup guide:
 
 1) PokeNav bot (<https://pokenavbot.com/>) must be in your server for most features to work.
 2) Invite PokeMax bot in your Discord server.
-3) Go into your server roles settings and make sure that PokeMax role is above raid-viewer and raid-moderator.
+3) Go into your server roles settings and make sure that PokeMax role is above (pokenav?) raid-viewer and raid-moderator.
 4) Run the ``$pokemax`` command inside the channel that you will use as the pokemax-moderation channel (recommended that you actually use the #pokenav channel).
 5) You may need the tasker/plus app if you want the plus features (check patreon, check google play link).
 
@@ -21,8 +29,13 @@ Maybe search for it by name if not found and prompt for it
 4) Find the raid-lobby channel (multiples :S?)
 5) Find the general-chat channel (?)
 6) Set the moderation role, admin-role.
+7) Find community-center and radius to have max-min lat-lon (use my settings in pokenav, then listen to set-radius set-center).
 
-
+Which channel to welcome new users?
+New users notification in mod-channel?
+Role for confirmed member (by default?)
+New user role?
+channel rules to read?
 
 **You are currently using the PokeMax BETA, bugs are likely to happens**
 
