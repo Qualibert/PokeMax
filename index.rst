@@ -68,7 +68,7 @@ It has many features, including:
     * APIs and public datasets for re-publishing live raids, research and infographics
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
 template2
