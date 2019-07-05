@@ -68,20 +68,7 @@ It has many features, including:
     * APIs and public datasets for re-publishing live raids, research and infographics
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
-   community_setup 
-   mobile_app 
-   video_overview
-   moderation
-   developers 
-   trainer
-   raids
-   research 
-   trading 
-   badges
-   leaderboards
-   pokedex
-   quota 
-   patreon
+template2
